@@ -32,6 +32,27 @@ html, body {
     }
 }
 
+@media only screen and (min-height: 720px) {
+    .container {
+        width: 85%;
+    }
+
+    .jumbotron h1 {
+        font-size: 120px !important;
+        margin-top: 70px !important;
+        margin-bottom: 70px !important;
+    }
+      
+    .jumbotron p {
+        font-size: 40px !important;
+        margin-bottom: 30px !important;
+    }
+
+    ul:not(.browser-default) {
+        margin: 20px !important;
+    }
+}
+
 ul:not(.browser-default) {
     padding-left: 0;
     list-style-type: none;
