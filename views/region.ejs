@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    
+    <%- include('./partials/head.ejs')  %> 
+
+    <body>
+        <div class="container">
+            <h1>Select Region</h1>
+            <ul>
+                <% if( regions.length > 0 ) { %> 
+                    <% regions.forEach( region => { %> 
+                        <li><a href="/region/<%= region %>"><%= region %></a></li>
+                    <% }) %> 
+                <% } %> 
+            </ul>
+        </div>
+    </body>
+</html>
