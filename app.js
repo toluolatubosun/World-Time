@@ -3,7 +3,7 @@ const regionRoutes = require('./routes/region.js')
 
 const app = express();
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3200;
 
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
